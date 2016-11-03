@@ -41,6 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XConfiguration\" />
+    <Folder Include="XConventions\" />
+    <Folder Include="XInfrastructure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
